@@ -2,17 +2,18 @@
 
 ## How to install
 
-npm i
+`npm i`
 
 ## How to use
 
-npm start
+`npm start`
 
 * För att nå api:n bör man befinna sig i localhost:8080/birds.
 * För att lägga till en fågel behövs följande: name, age, weight och sex.
 * Varje fågel får ett uuid tilldelat till sig efter att den skapats, kolla /birds för en lista av alla skapade.
 * För att ta bort/ändra en fågel krävs det att requesten sker till /birds/(tilldelade id).
 * För att kolla på en specifik fågel krävs det att man skickar en GET request till /birds/(tilldelade id).
+* Tilldelade egenskaper efter en POST/PUT request är: name, age, weight, sex, id och price.
 
 ## Kravlista:
 
