@@ -1,0 +1,29 @@
+{
+  "name": "laboration1-rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rchtect/laboration1-rest-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rchtect/laboration1-rest-api/issues"
+  },
+  "homepage": "https://github.com/rchtect/laboration1-rest-api#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "joi": "^17.6.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
