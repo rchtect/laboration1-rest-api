@@ -4,7 +4,7 @@
 
 npm i
 
-## How to use'
+## How to use
 
 npm start
 
