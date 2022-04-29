@@ -1,0 +1,34 @@
+#Start page
+GET http://localhost:8080
+###
+
+#Hämtar alla birds
+GET http://localhost:8080/birds
+###
+
+#Hämtar specifik bird
+GET http://localhost:8080/birds/(enter id)
+###
+
+#Skicka in en bird
+POST http://localhost:8080/birds 
+Content-Type: application/json
+
+{
+"name": "Ducky", "age": 60, "weight": 12, "sex": "male"
+}
+###
+
+#Ändra en bird
+PUT http://localhost:8080/birds/96e6fa4f-6c7c-424b-9138-12a718fc6964
+Content-Type: application/json
+
+{
+"name": "Duckina", "age": 24, "weight": 22, "sex": "female"
+}
+###
+
+#Ta bort en bird
+DELETE http://localhost:8080/birds/96e6fa4f-6c7c-424b-9138-12a718fc6964 
+
+###
