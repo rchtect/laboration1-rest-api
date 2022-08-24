@@ -64,9 +64,11 @@ router.get("/:id", (req, res) => {
 
 router.delete("/:id", (req, res) => {
   const { id } = req.params;
-
+  const foundBird = birds.find((inbird) => inbird.id === id);
+  if (!foundBird) {
+    res.status(404).send("Error 404: Specified bird spy agent with the ID cannot be found");
+  }
   birds = birds.filter((inbird) => inbird.id !== id);
-
   res.send(`Bird with id ${id} has been deleted!`);
 });
 

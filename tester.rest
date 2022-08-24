@@ -20,7 +20,7 @@ Content-Type: application/json
 ###
 
 #Ändra en bird
-PUT http://localhost:8080/birds/96e6fa4f-6c7c-424b-9138-12a718fc6964
+PUT http://localhost:8080/birds/5d030221-bc94-4980-921f-dce24e8a1848
 Content-Type: application/json
 
 {
@@ -29,6 +29,6 @@ Content-Type: application/json
 ###
 
 #Ta bort en bird
-DELETE http://localhost:8080/birds/96e6fa4f-6c7c-424b-9138-12a718fc6964 
+DELETE http://localhost:8080/birds/958ad761-44b2-482f-b65d-4eefd1866d2d
 
 ###
